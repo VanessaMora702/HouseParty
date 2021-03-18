@@ -16,3 +16,4 @@ python manage.py makemigrations
 python manage.py migrate
 <!-- run server -->
 python mange.py runserver
+
