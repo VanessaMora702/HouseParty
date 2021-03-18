@@ -12,5 +12,7 @@ pip install django djangoframework
 django-admin startproject nameOfApp
 django-admin startapp nameOfApp
 <!-- initialize db-- django default db -->
-python .\manage.py makemigrations
-python .\manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+<!-- run server -->
+python mange.py runserver
