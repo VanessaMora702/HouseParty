@@ -20,6 +20,10 @@ python mange.py runserver
 # Install Swagger UI
 pip install pyyaml uritemplate
 pip install django-rest-swagger
+# Swagger API URLS
+http://127.0.0.1:8000//api
+http://127.0.0.1:8000//openapi
+http://127.0.0.1:8000//docs/
 # React, Webpack and Babel
 <!-- create another django app call frontend  -->
 django-admin startapp frontend
