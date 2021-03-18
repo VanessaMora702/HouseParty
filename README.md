@@ -17,6 +17,9 @@ python manage.py migrate
 <!-- run server -->
 python mange.py runserver
 
+# Install Swagger UI
+pip install pyyaml uritemplate
+pip install django-rest-swagger
 # React, Webpack and Babel
 <!-- create another django app call frontend  -->
 django-admin startapp frontend
